@@ -1,0 +1,31 @@
+Technical Report
+
+Abstract
+This technical report documents the methodology, tools, and processes employed in the development of an Exploratory Data Analysis (EDA) 
+project using Plotly Dash. The project aims to visually explore and analyze the relationships between various data points
+through a series of data cleaning steps and interactive visualizations.
+Introduction
+The EDA project was conceptualized as a part of the final semester project requirements.
+It focuses on deploying a web-based application to perform and present data analysis. 
+The core objective was to clean, analyze, and visualize data to uncover patterns, correlations, and insights.
+Methodology
+	•	Data Cleaning: The data was processed through four major cleaning steps to prepare it for analysis.
+   This included handling missing values, data type conversions, outlier detection, and normalization.
+	•	Visualization: Utilizing Plotly Dash, over 20 different types of visualizations were created to represent 
+    the data's correlations, frequencies, and relationships. Each visualization was designed with a clear title 
+    and legible labels to ensure comprehensibility.
+	•	Queries: Beyond visualizations, specific SQL-like queries were implemented to further dissect the data
+    and extract actionable insights without the need for additional charts.
+	•	Deployment: The final dashboard was deployed using Google App Engine, making the insights accessible 
+  through an external-facing website.
+Results
+The project successfully demonstrates the application of EDA techniques in a web environment.
+The interactive dashboard allows users to explore various aspects of the data through intuitive
+visualizations and queries, providing a comprehensive understanding of the analyzed dataset.
+Conclusion
+The Exploratory Data Analysis project illustrates the power of visual data exploration 
+in uncovering hidden patterns and insights. Through a systematic approach to data cleaning and visualization,
+the project offers a template for future analyses aiming to make data more accessible and understandable.
+Future Work
+Further development could include the integration of machine learning models to predict 
+trends and the addition of more complex data sources for a richer analysis experience.
